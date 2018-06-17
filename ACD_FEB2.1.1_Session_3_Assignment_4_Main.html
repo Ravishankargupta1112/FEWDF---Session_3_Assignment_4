@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<meta charset="UTF-8">
+		<title>Student registration</title>
+	<head>
+		<style>
+			body {
+				/* The image used */
+				background-image: url("googleImg.jpg");
+
+				/* Full height */
+				height: 500px;
+
+				/* Center and scale the image nicely */
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			#button{
+				background: transparent;	
+			  }
+		</style>
+	</head>
+	<body>
+		<center>
+			<h1 style="text-align:center;color:black;">Student Registration Form</h1>
+			<form action="#" name="StudentRegistration" >
+				<table cellpadding="2" width="20%"  align="center" cellspacing="2">
+					<tr>
+						<td><font color="black">Name</font></td><td><input type="text" name="yourname" id="yourname" size="20" required></td>
+					</tr> 
+					<tr> 
+						<td><font color="black">Father Name</td><td><input type="text" name="fathername" id="fathername" maxlength="20" required></td>
+					</tr>
+					<tr>
+						<td><font color="black">DOB</td><td><input type="text" name="dob" id="dob" size="10" required></td>
+					</tr>
+					<tr>
+						<td><font color="black">Sex</font></td>
+						<td><input type="radio" name="sex" value="male" size="10" required><font color="black">Male</font></input>
+						<input type="radio" name="sex" value="Female" size="10" required><font color="black">Female</font></input></td>
+					</tr>
+					<tr>
+						<td><font color="black">EmailId</td><td><input type="text" name="emailid" id="emailid" size="30" required></td>
+					</tr> 
+					<tr> 
+						<td><font color="black">Course</td>
+						<td>Course
+							<select name="Course">
+								<option value="-1" selected>select..</option>
+								<option value="B.Tech">B.TECH</option>
+								<option value="B.Tech">BSC</option>
+								<option value="B.Tech">BCOM</option>
+								<option value="B.Tech">BA</option>
+								<option value="MCA">MCA</option>
+								<option value="MBA">MBA</option>
+								<option value="BCA">BCA</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td><font color="black">Permanent Address</td><td><input type="text" name="address" id="address" size="60" required></td>
+					</tr>
+					<tr>
+						<td><font color="black">PinCode</td><td><input type="text" name="pincode" id="pincode" maxlength="8" required></td>
+					</tr>
+					<tr>
+						<td><font color="black">MobileNo</td><td><input type="text" name="mobileno" id="mobileno" maxlength="10" required></td>
+					</tr>
+				</table>
+				<input type="submit" id="button"></input>
+			</form>
+		</form>
+	</body>
+</html> 
